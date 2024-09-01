@@ -1,0 +1,665 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family:"montserrat",sans-serif;
+}
+body{
+    background-color: #FAFAFA;
+}
+/* Header Start */
+.safe-area{
+    padding: 2% 15%;
+}
+header{
+    position: absolute;
+    width: 100%;
+}
+.header-container {
+    display: flex;
+    justify-content: space-between;
+}
+.menu ul {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.menu ul li a {
+    font-size: 17px;
+    line-height: 29px;
+    letter-spacing: 0.24px;
+    font-weight: 600;
+    color: #252B42;
+}
+.logo-container {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+.logo-container .logo{
+    width: 189px;
+    height: 39px;
+    font-size: 29px;
+    line-height: 38px;
+    letter-spacing: 0.12px;
+    color: #252B42;
+    font-weight: 700;
+}
+.login {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+.login a{
+    color: #FFFFFF;
+    font-size: 17px;
+    line-height: 27px;
+    letter-spacing: 0.24px;
+    font-weight: 700;
+}
+.login a:last-child{
+    background-color:#23A6F0 ;
+    padding: 18px 30px 18px 30px;
+    border-radius: 6px;
+}
+
+/* Header End */
+
+/* Banner Start */
+
+.banner-img img{
+
+    object-fit: cover;
+    width: 100%;
+    height: 100vh;
+
+}
+.banner-text{
+    position: absolute;
+    top: 133px;
+    width: 100%;
+}
+.banner-text h1{
+    font-size: 70px;
+    line-height: 95px;
+    letter-spacing: 0.24px;
+    color: #252B42;
+    padding: 0px 0px 41px 0px;
+}
+.banner-text p {
+    font-size: 24px;
+    line-height: 35px;
+    letter-spacing: 0.24px;
+    color: #737373;
+    padding: 0px 0px 82px 0px;
+}
+.banner-text a {
+    width: 220px;
+    height: 62px;
+    border-radius: 44px;
+    background-color:#23A6F0 ;
+    padding:18px 43px 18px 43px;  
+    color:#FFFFFF ;
+    font-size: 17px;
+    line-height: 26px;
+    letter-spacing: 0.24px;
+    font-weight: 700;
+}
+.banner-text a:last-child{
+    background-color: transparent;
+    border: solid 2px;
+    border-color:#23A6F0 ;
+    color: #23A6F0;
+    font-size: 17px;
+    line-height: 26px;
+    letter-spacing: 0.24px;
+    font-weight: 700;
+
+}
+
+/* Banner End */
+
+/* Container1 start */
+.banner-container{
+    background-color: white;
+}
+.banner-container-text{
+    margin-top: 53px;
+    margin-bottom: 53px;
+}
+.banner-container-text h2 {
+    font-size: 48px;
+    line-height: 68px;
+    letter-spacing: 0,24px;
+    color: #252B42;
+    font-weight: 700;
+}
+.banner-container-text p {
+    margin-top: 12px;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.24px;
+    color: #737373;
+}
+.card-block{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 40px;
+
+}
+.card-block p {
+    font-size: 17px;
+
+
+}
+.card{
+    position: relative;
+}
+.card-inside{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 24px 150px 24px 24px;
+    background-color: #E1E1E1;
+    border: 1.19px solid #E1E1E1;
+
+    
+}
+.card-btn{
+    display: flex;
+    margin-top: 60px;
+    gap: 10px;
+}
+.card-btn a{
+    width: auto;
+    height: 62px;
+    border-radius: 44px;
+    background-color:#23A6F0 ;
+    padding:18px 43px 18px 43px;  
+    color:#FFFFFF ;
+    font-size: 17px;
+    line-height: 26px;
+    letter-spacing: 0.24px;
+    font-weight: 700;
+}
+.card-btn a:last-child{
+    background-color: transparent;
+    border: solid 2px;
+    border-color:#23A6F0 ;
+    color: #23A6F0;
+    font-size: 17px;
+    line-height: 26px;
+    letter-spacing: 0.24px;
+    font-weight: 700;
+}
+/* Container1 End */
+/* Container2 Start */
+.business-container{
+    padding: 0px 15%;
+}
+.business-container-text{
+    text-align: center;
+    margin-bottom: 95px;
+    margin-top: 130px;
+
+}
+.business-container-text h2 {
+    font-size: 48px;
+    line-height: 68px;
+    letter-spacing: 0.24px;
+    font-weight: 700;
+    color: #252B42;
+}
+.business-container-text p {
+    font-size: 17px;
+    line-height: 24px;
+    letter-spacing: 0.24px;
+    font-weight: 500;
+    color: #737373;
+}
+.content1{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 135px
+}
+.contat1-content{
+    margin: auto;
+}
+.contat1-content h2{
+    font-size: 29px;
+    line-height: 38px;
+    letter-spacing: 0.12px;
+    font-weight: 700;
+    color: #252B42;
+
+} 
+.contat1-content .title{
+    font-size: 17px;
+    line-height: 27px;
+    letter-spacing: 0.24px;
+    font-weight: 700;
+    color: #737373;
+}
+.contat1-content img {
+    margin-top: 17px;
+    margin-bottom: 17px;
+}
+.contat1-content p{
+    font-size: 17px;
+    line-height: 24px;
+    letter-spacing: 0.24px;
+    color: #737373;
+    font-weight: 500;
+}
+/* Container2 End */
+
+/* container 3 start */
+.experience-container-text {
+    max-width: 750px;
+    max-height: 130px;
+    margin: auto;
+    text-align: center;
+    h2 {
+        font-size:48px ;
+        line-height: 68px;
+        letter-spacing: 0.24px;
+        font-weight: 700;
+        color: #252B42;
+        margin-bottom: 12px;
+    }
+    p {
+        font-size: 17px;
+        line-height: 24px;
+        letter-spacing: 0.24px;
+        font-weight: 500;
+        color: #737373;
+        margin-bottom: 55px;
+    }
+}
+.experience-container-cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 5%;
+    margin-bottom: 140px;
+    gap: 16px;
+}
+.card {
+    position: relative;
+    width: calc(25% - 16px);
+}
+.card img {
+    width: 100%;
+
+}
+.experience-container-card-text{
+    position: absolute;
+    bottom: 5px;
+    width: 100%;
+    padding: 0 0 16px 24px;
+    
+    p {
+        font-size: 17px;
+        line-height: 28px;
+        letter-spacing: 0.24px;
+        color: #FFFFFF;
+        font-weight: 600;
+        margin-bottom: 18px;
+       
+    }
+    h3 {
+        font-size: 24px;
+        line-height: 36px;
+        letter-spacing: 0.24px;
+        color: #FFFFFF;
+        font-weight: 500;
+        margin-bottom: 18px;
+       
+    }
+    button {
+        background-color: #23A6F0;
+        border-radius: 44px;
+        border: none;
+        padding: 15px 25px;
+        color: #FFFFFF;
+    }
+}
+.shadow {
+    position: absolute;
+    box-shadow: inset 0 -120px 120px -120px black, inset 0 -120px 120px -100px black;
+    bottom: 5px;
+    height: 100%;
+    width: 100%;
+    left: 0px;
+}
+
+/* container 3 end */
+
+
+/* container 4  start */
+.pricing-container-text {
+    max-width: 750px;
+    margin: auto;
+    text-align: center;
+    h2 {
+        font-size: 48px;
+        line-height: 68px;
+        letter-spacing: 0.24px;
+        font-weight: 700;
+        color: #252B42;
+        margin-bottom: 12px;
+    }
+    p {
+        font-size: 17px;
+        line-height: 24px;
+        letter-spacing: 0.24px;
+        font-weight: 500;
+        color: #737373;
+        margin-bottom: 55px;
+    }
+}
+.row {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 130px;
+    
+
+
+}
+.row-inside {
+    border: 1.19px solid #23A6F0;
+    border-radius: 12px;
+    padding: 0px 35px;
+    
+}
+.sekme{
+    display: flex;
+    align-items: center;
+    padding: 0 19px;
+    margin-bottom: 10px;
+    gap: 12px;
+    p{
+        font-size: 16px;
+        line-height: 29px;
+        letter-spacing: 0.24px;
+        font-weight: 600;
+        color: #252B42;
+    }
+}
+.row-email-text{
+    max-width: 240px;
+    max-height: 39px;
+}
+.row-text {
+    text-align: center;
+}
+.row-text h2{
+    font-size: 28px;
+    line-height: 38px;
+    letter-spacing: 0.12px;
+    font-weight: 700;
+    color: #252B42;
+    margin-top: 60px;
+    margin-bottom: 40px;
+
+}
+.row-text p {
+    font-size: 19px;
+    line-height: 28px;
+    letter-spacing: 0.12px;
+    color: #737373;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+.row-count {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 40px;
+    h3 {
+        font-size: 48px;
+        line-height: 68px;
+        letter-spacing: 0.24px;
+        font-weight: 700;
+        color:#23A6F0 ;
+    }
+    .dolar{
+        font-size: 20px;
+        line-height: 29px;
+        letter-spacing: 0.12px;
+        font-weight: 700;
+        color: #23A6F0;
+    }
+    p {
+        font-size: 17px;
+        line-height: 29px;
+        letter-spacing: 0.24px;
+        font-weight: 600;
+        color: #8EC2F2;
+    }
+}
+.row-btn {
+    align-items: center;
+    text-align: center;
+    button{
+        width: 100%;
+        height: 60px;
+        border-radius: 5px;
+        background-color:#23A6F0 ;
+        border: none;
+        margin-bottom: 40px;
+        margin-top: 40px;
+        color: #FFFFFF;
+        font-weight: bold;
+    }
+}
+.tick {
+    min-width: 38px;
+    min-height: 38px;
+    border-radius: 50%;
+    background-color: #2DC071;
+    position: relative;
+    
+
+}
+.tick::after{
+    content: "";
+    position: absolute;
+    background-color: #FFFFFF;
+    width: 19px;
+    height: 2px;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%, -50%) rotate(135deg);
+    
+}
+.tick::before {
+    content: "";
+    position: absolute;
+    background-color: #FFFFFF;
+    width: 10px;
+    height: 2px;
+    top:  59%;
+    left: 36%;
+    transform: translate(-50%, -50%) rotate(47deg);
+}
+.tick2 {
+    min-width: 38px;
+    min-height: 38px;
+    border-radius: 50%;
+    background-color: #BDBDBD;
+    position: relative;
+
+}
+
+.tick2::after{
+    content: "";
+    position: absolute;
+    background-color: #FFFFFF;
+    width: 19px;
+    height: 2px;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%, -50%) rotate(135deg);
+    
+}
+.tick2::before {
+    content: "";
+    position: absolute;
+    background-color: #FFFFFF;
+    width: 10px;
+    height: 2px;
+    top:  59%;
+    left: 36%;
+    transform: translate(-50%, -50%) rotate(47deg);
+}
+
+/* container 4 end */
+
+
+
+/* container 5 start */
+.touch-container-text{
+    max-width: 750px;
+    margin: auto;
+    text-align: center;
+    h2 {
+        font-size: 48px;
+        line-height: 68px;
+        letter-spacing: 0.24px;
+        font-weight: 700;
+        color: #252B42;
+        margin-bottom: 12px;
+    }
+    p {
+        font-size: 17px;
+        line-height: 24px;
+        letter-spacing: 0.24px;
+        font-weight: 500;
+        color: #737373;
+        margin-bottom: 55px;
+    }
+}
+.touch-cards {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 135px;
+}
+.card-img{
+    display: flex;
+    justify-content: center;
+    margin-top: 95px;
+}
+.card-img img{
+    width: 85px;
+    height: 85px;
+    margin-bottom: 17px;
+}
+.cardbackground{
+    background-color:#252B42 ;
+}
+.card-text p {
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.24px;
+    font-family: 600;
+    text-align: center;
+}
+.card-text h3 {
+    font-size: 19px;
+    line-height: 28px;
+    letter-spacing: 0.12px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 17px;
+    margin-bottom: 17px;
+}
+.card-text .btn {
+    display: flex;
+    justify-content: center;
+}
+.card-text button {
+    
+    width: 228px;
+    height: 64px;
+    background-color: transparent;
+    border-radius: 44px;
+    border-color: #23A6F0;
+    margin-bottom: 95px ;
+}
+.card-text a {
+    color: #23A6F0;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.24px;
+    font-weight: 600;
+}
+.card-text-white {
+    color: #FFFFFF;
+}
+
+/* container 5 end */
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 35px;
+    margin: 60px auto;
+    background-color: white;
+}
+.footer-container h3 {
+    font-size: 19px ;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0.12px;
+    color: #252B42;
+    margin-bottom:23px ;
+}
+.footer-container p {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0.24px;
+    color: #737373;
+    margin-bottom: 12px;
+}
+
+.get-in {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 12px;
+}
+.get-in img {
+    width: 28px;
+    height: 28px;
+}
+.footer-under {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 15%;
+    margin-right: 10%;
+    margin-bottom: 40px;
+
+}
+.footer-under-text p {
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.24px;
+    font-weight: 600;
+    color: #737373;
+}
+.footer-under-icon {
+    display: flex;
+    gap: 12px;
+}
